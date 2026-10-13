@@ -184,4 +184,3 @@ def render_poster(data: dict) -> Image.Image:
     draw = ImageDraw.Draw(img)
 
     header_y = 50
-    draw.
