@@ -184,3 +184,6 @@ def render_poster(data: dict) -> Image.Image:
     draw = ImageDraw.Draw(img)
 
     header_y = 50
+    @app.get("/")
+def read_root():
+    return {"message": "Hello World"}
