@@ -5,7 +5,7 @@ from typing import List, Dict, Optional
 from fastapi import FastAPI, Query, Response
 from fastapi.responses import JSONResponse
 from PIL import Image, ImageDraw, ImageFont
-
+app = FastAPI()
 # 常用字体自适应候选
 FONT_PATHS_BOLD = [
     "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
